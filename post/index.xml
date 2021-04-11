@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Nelson Gil Vargas</title>
+    <link>https://nelsonalejandrov.github.io/Nelson_Portfolio/post/</link>
+    <description>Recent content in Projects on Nelson Gil Vargas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://nelsonalejandrov.github.io/Nelson_Portfolio/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project IV: Telecom Customers (Clustering)</title>
+      <link>https://nelsonalejandrov.github.io/Nelson_Portfolio/post/project-4/</link>
+      <pubDate>Fri, 12 Feb 2021 11:14:48 -0400</pubDate>
+      
+      <guid>https://nelsonalejandrov.github.io/Nelson_Portfolio/post/project-4/</guid>
+      <description>Created a hierarchical clustering, to help a telecom industry company, to find groups of clients who use their services in a similar way. This customer segmentation can be used to propose an specific service plan for each type of customer. Having 1000 customer observations with the variables: average number of hours of calling per month, average number of hours spent in international phone calls, average number of text messages sent per month, average data usage per month in GB and the age of the user in years.</description>
+    </item>
+    
+    <item>
+      <title>Project III: Credict Scoring (Regression)</title>
+      <link>https://nelsonalejandrov.github.io/Nelson_Portfolio/post/project-3/</link>
+      <pubDate>Mon, 11 Jan 2021 11:13:32 -0400</pubDate>
+      
+      <guid>https://nelsonalejandrov.github.io/Nelson_Portfolio/post/project-3/</guid>
+      <description>Created a credit scoring model using linear regression in R. Worked with 300 records of users, including the variables: income in thousands of USD, credit scores, number of credit cards that the user owns, the age of the user, the education level of the individuals, the gender of the cliente (male or female), student factor (yes or no), married individual (yes or no), ethnicity of the individual and the average credit card debt of the individual.</description>
+    </item>
+    
+    <item>
+      <title>Project VI: Tweets&#39; Sentiment Analysis (Natural Language Processing)</title>
+      <link>https://nelsonalejandrov.github.io/Nelson_Portfolio/post/chapter-6/</link>
+      <pubDate>Sat, 12 Dec 2020 11:25:05 -0400</pubDate>
+      
+      <guid>https://nelsonalejandrov.github.io/Nelson_Portfolio/post/chapter-6/</guid>
+      <description>Created a Tweet Sentiment Analysis code with NLP techniques and a logistic regression model in Python. For this I used numpy, pandas and nltk libraries. I used the Tweets dataset included in the nltk python library, which includes 10000 Tweets: 5000 &amp;lsquo;positives&amp;rsquo; and 5000 &amp;lsquo;negatives&amp;rsquo;. I splitted this dataset using an 80% as a training test and the other 20% as a test set (to assess the accuracy of the model).</description>
+    </item>
+    
+    <item>
+      <title>Project V: Deep Learning</title>
+      <link>https://nelsonalejandrov.github.io/Nelson_Portfolio/post/chapter-5/</link>
+      <pubDate>Thu, 13 Apr 2017 11:15:58 -0400</pubDate>
+      
+      <guid>https://nelsonalejandrov.github.io/Nelson_Portfolio/post/chapter-5/</guid>
+      <description>In the twinkling of an eye, all was ready to execute Coppenole’s idea. Bourgeois, scholars and law clerks all set to work. The little chapel situated opposite the marble table was selected for the scene of the grinning match. A pane broken in the pretty rose window above the door, left free a circle of stone through which it was agreed that the competitors should thrust their heads. In order to reach it, it was only necessary to mount upon a couple of hogsheads, which had been produced from I know not where, and perched one upon the other, after a fashion.</description>
+    </item>
+    
+    <item>
+      <title>Project II: Classification</title>
+      <link>https://nelsonalejandrov.github.io/Nelson_Portfolio/post/project-2/</link>
+      <pubDate>Mon, 10 Apr 2017 11:00:59 -0400</pubDate>
+      
+      <guid>https://nelsonalejandrov.github.io/Nelson_Portfolio/post/project-2/</guid>
+      <description>Nevertheless, as be harangued them, the satisfaction and admiration unanimously excited by his costume were dissipated by his words; and when he reached that untoward conclusion: “As soon as his illustrious eminence, the cardinal, arrives, we will begin,” his voice was drowned in a thunder of hooting.
+“Begin instantly! The mystery! the mystery immediately!” shrieked the people. And above all the voices, that of Johannes de Molendino was audible, piercing the uproar like the fife’s derisive serenade: “Commence instantly!</description>
+    </item>
+    
+    <item>
+      <title>Project I: Exploratory Data Analysis</title>
+      <link>https://nelsonalejandrov.github.io/Nelson_Portfolio/post/project-1/</link>
+      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+      
+      <guid>https://nelsonalejandrov.github.io/Nelson_Portfolio/post/project-1/</guid>
+      <description>Three hundred and forty-eight years, six months, and nineteen days ago to-day, the Parisians awoke to the sound of all the bells in the triple circuit of the city, the university, and the town ringing a full peal.
+The sixth of January, 1482, is not, however, a day of which history has preserved the memory. There was nothing notable in the event which thus set the bells and the bourgeois of Paris in a ferment from early morning.</description>
+    </item>
+    
+  </channel>
+</rss>
