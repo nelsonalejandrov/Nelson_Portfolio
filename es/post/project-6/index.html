@@ -192,17 +192,17 @@
 <li>Utilicé el conjunto de Tweets incluidos en la librería nltk de python, este incluye 10000 Tweets: 5000 &ldquo;Positivos&rdquo; y 5000 &ldquo;Negativos&rdquo;. Separé el 80% del conjunto de datos para usarlo como datos de entrenamiento y el otro 20% como datos de prueba (para verificar la precisión del modelo).</li>
 <li>En NLP, las oraciones deben ser vectorizadas para poder aplicar operaciones matemáticas en ellas. Por lo tanto, procesé los tweets para <em>tokenizarlos</em> (separa los tweets por palabra), quitar <em>stopwords</em>(por ejemplo preposiciones) y aplicar <em>stemming</em>(simplificar las palabras a su raíz).
 <figure>
-    <img src="/images/nlp1.png"/> 
+    <img src="https://nelsonalejandrov.github.io/Nelson_Portfolio/images/nlp1.png"/> 
 </figure>
 </li>
 <li>El modelo propuesto para el análisis de sentimiento utiliza regresión logistica, en pocas palabras la regresión logística es un modelo de regresión lineal que se inserta en una función de activación (la más compun y la que yo utilicé es la función Sigmoida= y produce una probabilidad entre cero y uno. Para encontrar los pesos que minimizan al modelo utilicé Descenso de Gradiente. El conjunto de ecuaciones utilizadas se muestra aquí:
 <figure>
-    <img src="/images/logistic.png"/> 
+    <img src="https://nelsonalejandrov.github.io/Nelson_Portfolio/images/logistic.png"/> 
 </figure>
 </li>
 <li>Despues de procesar los tweets, extraje las características como el número de palabras positivas y el número de palabras negativas en un tweet. Luego, entreno y pruebo el modelo. La entrada de la función programada es un Tweet y su salida es una probabilidad. Si P&lt;0.5 el tweet es considerado negativo, y si P&gt;0.5 es considerado positivo. Aquí hay ejemplos de tweets procesados y sus correspondientes probabilidades:
 <figure>
-    <img src="/images/nlp.png"/> 
+    <img src="https://nelsonalejandrov.github.io/Nelson_Portfolio/images/nlp.png"/> 
 </figure>
 </li>
 <li>Finalmente, el modelo es comparado con el set de prueba y este devuelve una precisión de 99.5% de tweets clasificados correctamente.</li>
