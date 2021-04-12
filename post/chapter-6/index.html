@@ -198,17 +198,17 @@
 <li>I used the Tweets dataset included in the nltk python library, which includes 10000 Tweets: 5000 &lsquo;positives&rsquo; and 5000 &lsquo;negatives&rsquo;. I splitted this dataset using an 80% as a training set and the other 20% as a test set (to assess the accuracy of the model).</li>
 <li>In NLP, sentences need to be vectorized in order to be able to perform mathematical operations on them. Therefore, I processed the tweets to tokenize them (split each tweet word by word), remove stopwords and apply stemming.
 <figure>
-    <img src="/images/nlp1.png"/> 
+    <img src="https://nelsonalejandrov.github.io/Nelson_Portfolio/images/nlp1.png"/> 
 </figure>
 </li>
 <li>The proposed model for sentiment analysis uses logistic regression, which in a nutshell is a linear regression model that is plugged into an activation function (in this case a Sigmoid function) and produces a probability between zero and one. To find the weights that minimized the model I used Gradient Descent. A set of the used equations are shown below:
 <figure>
-    <img src="/images/logistic.png"/> 
+    <img src="https://nelsonalejandrov.github.io/Nelson_Portfolio/images/logistic.png"/> 
 </figure>
 </li>
 <li>After the tweets were processed, features were extracted as the number of positive words and the number of negative words in a tweet. Then, the logistic regression model was trained and tested. The input of the function is a Tweet and the output is a probability. If P&lt;0.5 the tweet is classified as negative, and if P&gt;0.5 the tweet is classified as positive. Here is an example of processed tweets and their corresponding probability:
 <figure>
-    <img src="/images/nlp.png"/> 
+    <img src="https://nelsonalejandrov.github.io/Nelson_Portfolio/images/nlp.png"/> 
 </figure>
 </li>
 <li>Finally, the model was compared with the test set and returned an accuracy of 99.5% correctly classified tweets.</li>
