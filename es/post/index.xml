@@ -1,19 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Articles on Nelson Gil Vargas</title>
+    <title>Proyectos on Nelson Gil Vargas</title>
     <link>https://nelsonalejandrov.github.io/Nelson_Portfolio/es/post/</link>
-    <description>Recent content in Articles on Nelson Gil Vargas</description>
+    <description>Recent content in Proyectos on Nelson Gil Vargas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://nelsonalejandrov.github.io/Nelson_Portfolio/es/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chapitre I: La grande halle</title>
-      <link>https://nelsonalejandrov.github.io/Nelson_Portfolio/es/post/chapter-1/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+      <title>Proyecto IV: Clientes de Telecomunicaciones (Clustering)</title>
+      <link>https://nelsonalejandrov.github.io/Nelson_Portfolio/es/post/project-4/</link>
+      <pubDate>Fri, 12 Feb 2021 11:14:48 -0400</pubDate>
       
-      <guid>https://nelsonalejandrov.github.io/Nelson_Portfolio/es/post/chapter-1/</guid>
-      <description>Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d&amp;rsquo;attente. L&amp;rsquo;avantage de le mettre en latin est que l&amp;rsquo;opérateur sait au premier coup d&amp;rsquo;oeil que la page contenant ces lignes n&amp;rsquo;est pas valide, et surtout l&amp;rsquo;attention du client n&amp;rsquo;est pas dérangée par le contenu, il demeure concentré seulement sur l&amp;rsquo;aspect graphique.</description>
+      <guid>https://nelsonalejandrov.github.io/Nelson_Portfolio/es/post/project-4/</guid>
+      <description>Creé un clustering jerárquico que puede apoyar a una compañia de la industria de telecomunicaciones a encontrar grupos de clientes que utilizan sus servicios de manera similar. Este tipo de segmentación de clientes le permiten a las empresas de telecomunicaciones diseñar los planes de servicio que se ajusten a cada tipo de cliente. Trabajé con 1000 observaciones de clientes con las siguiente variables: número de horas de llamada promedio al mes, número de horas de llamadas internacionales promedio al mes, número de mensajes de texto promedio enviados al mes, uso de datos promedio al mes medido en GB y la edad de los usuarios en años.</description>
+    </item>
+    
+    <item>
+      <title>Proyecto III: Calificación Crediticia (Regresión)</title>
+      <link>https://nelsonalejandrov.github.io/Nelson_Portfolio/es/post/project-3/</link>
+      <pubDate>Mon, 11 Jan 2021 11:13:32 -0400</pubDate>
+      
+      <guid>https://nelsonalejandrov.github.io/Nelson_Portfolio/es/post/project-3/</guid>
+      <description>Creé un modelo de calificación crediticia utilizando regresión lineal en R. Trabajé con 300 registros de usuarios, que incluyen las siguientes variables: ingresos en miles de USD, calificación crediticia, número de tarjetas de crédito que posee el usuario, edad del usuario, nivel educativo del individuo, género del cliente (masculino o femenino), factor de estudiante (sí es o no es), individuo casado (sí o no), etnia del individuo y la deuda de tarjeta de crédito promedio del individuo.</description>
+    </item>
+    
+    <item>
+      <title>Proyecto I: Ingresos de Clientes</title>
+      <link>https://nelsonalejandrov.github.io/Nelson_Portfolio/es/post/project-1/</link>
+      <pubDate>Sat, 09 Jan 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://nelsonalejandrov.github.io/Nelson_Portfolio/es/post/project-1/</guid>
+      <description>Trabajé con 51243 observaciones de compras de clientes a un mismo negocio. Cada una de estas observaciones tiene tres variables: id_cliente, cantidad de compra y fecha de compra.}    De los datos extraje el año y los días que han pasado desde que la compra fue realizada. Con ayuda de la librería sqldf en R, la cual permite manipular dataframes con queries de SQL, agrupé el último día de compra y la cantidad de compra promedio de los clientes con el mismo ID.</description>
+    </item>
+    
+    <item>
+      <title>Proyecto VI: Análisis de Sentimiento de Tweets (Procesamiento de Lenguaje Natural NLP)</title>
+      <link>https://nelsonalejandrov.github.io/Nelson_Portfolio/es/post/project-6/</link>
+      <pubDate>Sat, 12 Dec 2020 11:25:05 -0400</pubDate>
+      
+      <guid>https://nelsonalejandrov.github.io/Nelson_Portfolio/es/post/project-6/</guid>
+      <description>Creé un código de análisis de sentimiento de tweets con técnicas de NLP y un modelo de regresión logística en Python. Para esto, utilicé las librerías de numpy, pandas y nltk principalmente. Utilicé el conjunto de Tweets incluidos en la librería nltk de python, este incluye 10000 Tweets: 5000 &amp;ldquo;Positivos&amp;rdquo; y 5000 &amp;ldquo;Negativos&amp;rdquo;. Separé el 80% del conjunto de datos para usarlo como datos de entrenamiento y el otro 20% como datos de prueba (para verificar la precisión del modelo).</description>
     </item>
     
   </channel>

@@ -6,14 +6,14 @@
     <description>Recent content in scene on Nelson Gil Vargas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Apr 2017 10:58:08 -0400</lastBuildDate><atom:link href="https://nelsonalejandrov.github.io/Nelson_Portfolio/es/tags/scene/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Jan 2021 10:58:08 -0400</lastBuildDate><atom:link href="https://nelsonalejandrov.github.io/Nelson_Portfolio/es/tags/scene/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chapitre I: La grande halle</title>
-      <link>https://nelsonalejandrov.github.io/Nelson_Portfolio/es/post/chapter-1/</link>
-      <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
+      <title>Proyecto I: Ingresos de Clientes</title>
+      <link>https://nelsonalejandrov.github.io/Nelson_Portfolio/es/post/project-1/</link>
+      <pubDate>Sat, 09 Jan 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://nelsonalejandrov.github.io/Nelson_Portfolio/es/post/chapter-1/</guid>
-      <description>Généralement, on utilise un texte en faux latin (le texte ne veut rien dire, il a été modifié), le Lorem ipsum ou Lipsum, qui permet donc de faire office de texte d&amp;rsquo;attente. L&amp;rsquo;avantage de le mettre en latin est que l&amp;rsquo;opérateur sait au premier coup d&amp;rsquo;oeil que la page contenant ces lignes n&amp;rsquo;est pas valide, et surtout l&amp;rsquo;attention du client n&amp;rsquo;est pas dérangée par le contenu, il demeure concentré seulement sur l&amp;rsquo;aspect graphique.</description>
+      <guid>https://nelsonalejandrov.github.io/Nelson_Portfolio/es/post/project-1/</guid>
+      <description>Trabajé con 51243 observaciones de compras de clientes a un mismo negocio. Cada una de estas observaciones tiene tres variables: id_cliente, cantidad de compra y fecha de compra.}    De los datos extraje el año y los días que han pasado desde que la compra fue realizada. Con ayuda de la librería sqldf en R, la cual permite manipular dataframes con queries de SQL, agrupé el último día de compra y la cantidad de compra promedio de los clientes con el mismo ID.</description>
     </item>
     
   </channel>
